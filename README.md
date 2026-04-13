@@ -21,17 +21,17 @@ This project analyzes the factors affecting Fenerbahçe's match performance acro
 
 | # | Hypothesis | Test | Result |
 |---|-----------|------|--------|
-| H1 | Fenerbahçe performs better at home than away | Mann-Whitney U | ✅ Significant (p < 0.05) |
-| H2 | League performance drops after a European match | Mann-Whitney U | ❌ Not significant |
-| H3 | Higher possession correlates with better goal difference | Pearson correlation | ❌ Not significant (r = 0.018) |
+| H1 | Fenerbahçe performs better at home than away | Two-sample t-test | ✅ Significant (p = 0.0131) |
+| H2 | League performance drops after a European match | Two-sample t-test | ❌ Not significant (p = 0.5825) |
+| H3 | Higher possession correlates with better goal difference | Pearson correlation | ❌ Not significant (r = 0.018, p = 0.7091) |
 
 ---
 
 ## Key Findings
 - **Win rate:** 57.0% overall (Home: 61.9% | Away: 52.2%)
-- **Home advantage** is statistically significant
-- **European fixture fatigue** does not significantly reduce league points
-- **Possession** is not a strong predictor of goal difference for Fenerbahçe
+- **Home advantage** is statistically significant (p = 0.0131)
+- **European fixture fatigue** does not significantly reduce league points (p = 0.5825)
+- **Possession** is not a strong predictor of goal difference for Fenerbahçe (r = 0.018)
 
 ---
 
