@@ -95,6 +95,7 @@ This will generate 3 figure files:
 - `Hypothesis_testing.png`
 - `cumulative_rest_days.png`
 
+> **Note:** The CSV data files must be in the same folder as `fenerbahce_eda.py`, or update the file paths in the `csv_files` dictionary at the top of the script.
 
 ---
 
