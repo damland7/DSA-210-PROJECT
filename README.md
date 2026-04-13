@@ -38,13 +38,13 @@ This project analyzes the factors affecting Fenerbahçe's match performance acro
 ## Visualizations
 
 ### General Performance (10 Seasons)
-![General Performance](figures/fig1_general_performance.png)
+![General Performance](General_Performance.png)
 
 ### Hypothesis Tests
-![Hypothesis Tests](figures/fig2_hypothesis_tests.png)
+![Hypothesis Tests](Hypothesis_testing.png)
 
 ### Cumulative Points & Rest Days Effect
-![Time Series](figures/fig3_cumulative_rest.png)
+![Cumulative Rest Days](cumulative_rest_days.png)
 
 ---
 
@@ -53,23 +53,21 @@ This project analyzes the factors affecting Fenerbahçe's match performance acro
 DSA-210-PROJECT/
 ├── README.md
 ├── requirements.txt
-├── data/
-│   ├── Fenerbahce_2016-2017.csv
-│   ├── Fenerbahce_2017-2018.csv
-│   ├── Fenerbahce_2018-2019.csv
-│   ├── Fenerbahce_2019-2020.csv
-│   ├── Fenerbahce_2020-2021.csv
-│   ├── Fenerbahce_2021-2022.csv
-│   ├── Fenerbahce_2022-2023.csv
-│   ├── Fenerbahce_2023-2024.csv
-│   ├── Fenerbahçe_2024-2025.csv
-│   └── Fenerbahce_2025-2026.csv
-├── analysis/
-│   └── fenerbahce_eda.py
-└── figures/
-    ├── fig1_general_performance.png
-    ├── fig2_hypothesis_tests.png
-    └── fig3_cumulative_rest.png
+├── fenerbahce_eda.py
+├── General_Performance.png
+├── Hypothesis_testing.png
+├── cumulative_rest_days.png
+└── data/
+    ├── Fenerbahce_2016-2017.csv
+    ├── Fenerbahce_2017-2018.csv
+    ├── Fenerbahce_2018-2019.csv
+    ├── Fenerbahce_2019-2020.csv
+    ├── Fenerbahce_2020-2021.csv
+    ├── Fenerbahce_2021-2022.csv
+    ├── Fenerbahce_2022-2023.csv
+    ├── Fenerbahce_2023-2024.csv
+    ├── Fenerbahçe_2024-2025.csv
+    └── Fenerbahce_2025-2026.csv
 ```
 
 ---
@@ -89,14 +87,13 @@ pip install -r requirements.txt
 
 ### 3. Run the analysis
 ```bash
-cd analysis
 python fenerbahce_eda.py
 ```
 
 This will generate 3 figure files:
-- `fig1_general_performance.png`
-- `fig2_hypothesis_tests.png`
-- `fig3_cumulative_rest.png`
+- `General_Performance.png`
+- `Hypothesis_testing.png`
+- `cumulative_rest_days.png`
 
 > **Note:** The CSV data files must be in the same folder as `fenerbahce_eda.py`, or update the file paths in the `csv_files` dictionary at the top of the script.
 
