@@ -193,7 +193,8 @@ Data collected manually from FBref match logs:
 ---
 
 ## Limitations and Future Work
-- **Pre-match features only:** The models rely on contextual factors (venue, competition, rest days) rather than in-game statistics. Adding opponent strength data from Transfermarkt (squad market values) could improve predictive power.
+- **Opponent strength data:** The original proposal planned to integrate Transfermarkt squad market values as a measure of opponent quality. This enrichment will be added in the final report submission (18 May), where each match will be linked to the opponent's estimated market value for that season, allowing the models to account for fixture difficulty more precisely.
+- **Pre-match features only:** The current models rely on contextual factors (venue, competition, rest days) rather than in-game statistics. Opponent market value from Transfermarkt is the primary planned addition.
 - **Class balance:** Win rate is 57%, so the dataset slightly favors the positive class. Techniques like SMOTE could be explored.
 - **Model scope:** More advanced ensemble methods (Random Forest, Gradient Boosting) could be applied in future work after covering them in more depth.
 - **Time series:** A season-level time series analysis (e.g., ARIMA) could capture long-term performance trends beyond what season ordinal encoding captures.
