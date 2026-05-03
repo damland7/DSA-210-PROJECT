@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This project analyzes the factors affecting Fenerbahçe's match performance across different competitions — Süper Lig, Turkish Cup, and European tournaments — over 10 seasons (2016–2026). Rather than focusing on a single variable, the goal is to take a broader look at how contextual factors such as home advantage, fixture congestion, opponent strength, and competition type relate to match outcomes.
+This project analyzes the factors affecting Fenerbahçe's match performance across different competitions — Süper Lig and European tournaments — over 10 seasons (2016–2026). Rather than focusing on a single variable, the goal is to take a broader look at how contextual factors such as home advantage, fixture congestion, opponent strength, and competition type relate to match outcomes.
 
 **Research Question:** Which factors are most related to Fenerbahçe's match performance across league and European competitions?
 
